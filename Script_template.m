@@ -30,7 +30,7 @@ sensor_pin = "A0";      % analogue input for MCP9700A
 
 % Use 600 for the real coursework submission
 
-duration = 6;
+duration = 600;
 
 date_string = input('Enter date in the format d/m/yyyy: ','s');
 location_string = input('Enter location: ','s');
