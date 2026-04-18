@@ -1,5 +1,5 @@
-% Boyang Hu
-% ssybh2@nottingham.edu.cn
+% NAME: Boyang Hu
+% Email: ssybh2@nottingham.edu.cn
 
 %% PRELIMINARY TASK - ARDUINO AND GIT INSTALLATION [5 MARKS]
 
@@ -30,7 +30,7 @@ sensor_pin = "A0";      % analogue input for MCP9700A
 
 % Use 600 for the real coursework submission
 
-duration = 600;
+duration = 6;
 
 date_string = input('Enter date in the format d/m/yyyy: ','s');
 location_string = input('Enter location: ','s');
