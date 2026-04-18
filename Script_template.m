@@ -29,10 +29,8 @@ end
 sensor_pin = "A0";      % analogue input for MCP9700A
 
 % Use 600 for the real coursework submission
-duration = 10;
 
-% For debugging only, you may temporarily use:
-% duration = 10;
+duration = 600;
 
 date_string = input('Enter date in the format d/m/yyyy: ','s');
 location_string = input('Enter location: ','s');
@@ -210,7 +208,3 @@ disp('Close the Task 3 figure window when you want to stop the program.')
 
 temp_prediction(a)
 
-
-%% TASK 4 - REFLECTIVE STATEMENT [5 MARKS]
-
-% Insert answers here
