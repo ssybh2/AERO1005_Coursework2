@@ -99,8 +99,11 @@ average_temp = temp_sum / number_of_samples;
 % Plot temperature against time
 % -------------------------------------------------
 
+% Smooth the short noise
+temperature_plot = movmean(temperature_values, 5); 
+
 figure
-plot(time_seconds, temperature_values, 'LineWidth', 1.2)
+plot(time_seconds, temperature_plot, 'LineWidth', 1.2)
 xlabel('Time (s)')
 ylabel('Temperature (C)')
 title('Capsule temperature against time')
