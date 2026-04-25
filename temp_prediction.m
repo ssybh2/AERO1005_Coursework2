@@ -1,3 +1,6 @@
+% NAME: Boyang Hu
+% Email: ssybh2@nottingham.edu.cn
+
 function temp_prediction(a)
 %TEMP_PREDICTION Continuously predicts future capsule temperature.
 % This function reads temperature from an MCP9700 sensor through Arduino,

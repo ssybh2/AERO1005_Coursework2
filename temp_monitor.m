@@ -1,3 +1,6 @@
+% NAME: Boyang Hu
+% Email: ssybh2@nottingham.edu.cn
+
 function temp_monitor(a)
 %TEMP_MONITOR Continuously monitors temperature and controls LEDs.
 % This function reads temperature from an MCP9700A sensor connected to
