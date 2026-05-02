@@ -152,7 +152,7 @@ while isvalid(fig)
         
     elseif current_state == 1
         
-        % Yellow LED: 0.5 s on, 0.5 s off
+        % Yellow LED: 0.5 s on, 0.5 s on
         writeDigitalPin(a, green_led, 0);
         writeDigitalPin(a, red_led, 0);
         
