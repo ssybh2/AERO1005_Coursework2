@@ -83,8 +83,8 @@ while isvalid(fig)
     % ---------------------------------------------
     % Smooth temperature
     % ---------------------------------------------
-    %filtered_temperature = (1 - alpha) * filtered_temperature + alpha * raw_temperature;
-    %temperature_value = filtered_temperature;
+    filtered_temperature = (1 - alpha) * filtered_temperature + alpha * raw_temperature;
+    temperature_value = filtered_temperature;
     
     % ---------------------------------------------
     % Update arrays
