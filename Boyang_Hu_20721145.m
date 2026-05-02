@@ -165,7 +165,7 @@ fprintf(file_id,'Location - %s\n\n', location_string);
 
 for minute = 0:minutes_to_print
     
-    index = minute * 60 + 1;
+    index = minute * 60 ;
     
     fprintf(file_id,'Minute %d\n', minute);
     fprintf(file_id,'Temperature %.2f C\n\n', temperature_values(index));
