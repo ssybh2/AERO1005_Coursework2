@@ -137,7 +137,7 @@ for minute = 0:minutes_to_print
     index = minute * 60 + 1;
     
     line_1 = sprintf('Minute %d', minute);
-    line_2 = sprintf('Temperature %.2f C', tempature_values(index));
+    line_2 = sprintf('Temperature %.2f C', temperature_values(index));
     
     disp(line_1)
     disp(line_2)
