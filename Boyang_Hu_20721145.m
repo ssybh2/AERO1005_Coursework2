@@ -185,7 +185,7 @@ fclose(file_id);
 
 check_file = fopen('capsule_temperature.txt','r');
 
-if check_file == 1
+if check_file == -1
     disp('Error: capsule_temperature.txt could not be opened.')
 else
     disp('capsule_temperature.txt has been written successfully.')
