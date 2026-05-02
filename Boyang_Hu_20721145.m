@@ -83,11 +83,11 @@ for n = 1:number_of_samples
     
     temp_sum = temp_sum + temperature_values(n);
     
-    if temperature_values(n) < min_temp
+    if temperature_values(n) > max_temp
         min_temp = temperature_values(n);
     end
     
-    if temperature_values(n) > max_temp
+    if temperature_values(n) < min_temp
         max_temp = temperature_values(n);
     end
     
