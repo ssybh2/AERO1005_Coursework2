@@ -145,8 +145,8 @@ while isvalid(fig)
     if current_state == 2
         
         % Green LED constant on for about 1 second
-        writeDigitalPin(a, green_led, 0);
-        writeDigitalPin(a, yellow_led, 1);
+        writeDigitalPin(a, green_led, 1);
+        writeDigitalPin(a, yellow_led, 0);
         writeDigitalPin(a, red_led, 0);
         pause(1.0);
         
