@@ -163,6 +163,10 @@ while isvalid(fig)
         writeDigitalPin(a, green_led, 0);
     end
 
+    % Keep update interval close to 1 second
+    elapsed = toc(loop_start);
+    pause(max(0, 1 - elapsed));
+end
 
 % -------------------------------------------------
 % Turn all LEDs off before leaving the function
