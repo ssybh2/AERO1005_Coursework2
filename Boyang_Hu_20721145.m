@@ -57,7 +57,7 @@ disp('Starting temperature data acquisition...')
 
 for n = 1:number_of_samples
     
-    time_seconds(n) = n ;
+    time_seconds(n) = n - 1;
     
     voltage_values(n) = readVoltage(a, sensor_pin);
     
